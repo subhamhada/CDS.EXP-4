@@ -29,3 +29,47 @@ Shifts the bits of the left operand to the left by the number of positions speci
 
 Shifts the bits of the left operand to the right by the number of positions specified by the right operand. The behavior of the leftmost bits depends on whether the type is signed or unsigned.
 ## Code - 
+### 1.
+```
+//subham
+//2370123132
+//entc b2
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a=5;  //101
+    int b=3;  // 011
+    //bitwise AND
+    int bitwise_and =a&b;
+    int bitwise_or =a| b;
+    int bitwise_xor =a ^b;
+    int bitwise_not =-a;
+    int left_shift =a<<2;
+    int right_shift =a>> 1;
+    cout<<"AND:"<<bitwise_and<<endl;
+    cout<<"OR:"<<bitwise_or<<endl;
+    cout<<"XOR:"<<bitwise_xor<<endl;
+    cout<<"NOT a:"<<bitwise_not<<endl;
+    cout<<"Left shift:"<<left_shift<<endl;
+    cout<<"Right shift:"<<right_shift<<endl;
+    return 0;
+}
+```
+
+## Explanation -
+Bitwise operators perform operations on the individual bits of data. They include:
+
+AND (&): Sets each bit to 1 if both bits are 1.
+
+OR (|): Sets each bit to 1 if at least one bit is 1.
+
+XOR (^): Sets each bit to 1 if only one bit is 1.
+
+NOT (~): Inverts all the bits.
+
+Left Shift (<<): Shifts bits to the left, filling with 0s.
+
+Right Shift (>>): Shifts bits to the right, filling with 0s (logical shift).
+
+## Output -
