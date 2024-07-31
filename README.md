@@ -1,31 +1,31 @@
 # Experiment 4
 ## Aim - 
-To write C++ programs that demonstrate the use of bitwise operators.
+Writing a C++ programs that demonstrate the use of bitwise operators.
 ## Theory - 
 Bitwise operators are used to perform operations on individual bits of data. They are essential for tasks that involve low-level progrmming, such as manipulating binary data and performing bitwise arithmetic.
 The common bitwise operators in C++ include AND (&), OR (|), XOR (^), NOT (~), left shift (<<), and right shift (>>).
 
-### Bitwise AND (&):
+### Bitwise AND (&)-
 
 Performs a bitwise AND operation between two integers. If both the bits are 1 then the result of the operation is 1 otherwise the result bit is 0.
 
-### Bitwise OR (|):
+### Bitwise OR (|)-
 
 Performs a bitwise OR operation.If atleast one of the bits is 1 then the result of the operation is 1.
 
-### Bitwise XOR (^):
+### Bitwise XOR (^)-
 
 Performs a bitwise XOR (exclusive OR) operation. If both the bits are different the result of the operation is 1 otherwise the result bit is 0.
 
-### Bitwise NOT (~):
+### Bitwise NOT (~)-
 
 Performs a bitwise NOT operation, also known as bitwise complement. It inverts all the bits. The result of the bit is complimentary to itself, for example if a bit is 1 its result bit is 0.
 
-### Left Shift (<<):
+### Left Shift (<<)-
 
 Shifts the bits of the left operand to the left by the number of positions specified by the right operand. New bits on the right are set to 0.
 
-### Right Shift (>>):
+### Right Shift (>>)-
 
 Shifts the bits of the left operand to the right by the number of positions specified by the right operand. The behavior of the leftmost bits depends on whether the type is signed or unsigned.
 ## Code - 
@@ -60,16 +60,22 @@ int main()
 ## Explanation -
 Bitwise operators perform operations on the individual bits of data. They include:
 
-AND (&): Sets each bit to 1 if both bits are 1.
+AND (&):- Sets each bit to 1 if both bits are 1.
 
-OR (|): Sets each bit to 1 if at least one bit is 1.
+OR (|):- Sets each bit to 1 if at least one bit is 1.
 
-XOR (^): Sets each bit to 1 if only one bit is 1.
+XOR (^):- Sets each bit to 1 if only one bit is 1.
 
-NOT (~): Inverts all the bits.
+NOT (~):- Inverts all the bits.
 
-Left Shift (<<): Shifts bits to the left, filling with 0s.
+Left Shift (<<):- Shifts bits to the left, filling with 0s.
 
-Right Shift (>>): Shifts bits to the right, filling with 0s (logical shift).
+Right Shift (>>):- Shifts bits to the right, filling with 0s (logical shift).
 
 ## Output -
+### 1.
+![Screenshot 2024-07-31 090900](https://github.com/user-attachments/assets/f866dde8-b477-4bc9-8fa4-ed26fab0bd7d)
+
+## Conclusion -
+Bitwise operators provide low-level data manipulation capabilities. 
+They are essential for optimizing algorithms and are commonly used in areas such as graphics, cryptography, and systems programming.
