@@ -1,6 +1,6 @@
 # Experiment 4
 ## Aim - 
-Writing a C++ programs that demonstrate the use of bitwise operators.
+To study and implement c++ bitwise operators
 ## Theory - 
 Bitwise operators are used to perform operations on individual bits of data. They are essential for tasks that involve low-level progrmming, such as manipulating binary data and performing bitwise arithmetic.
 The common bitwise operators in C++ include AND (&), OR (|), XOR (^), NOT (~), left shift (<<), and right shift (>>).
