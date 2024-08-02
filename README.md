@@ -42,7 +42,7 @@ Shifts the bits of the left operand to the right by the number of positions spec
 The behavior of the leftmost bits depends on whether the type is signed or unsigned.
 
 ## Code - 
-### 1.
+### 1. *Bitwise operators*
 ```
 //subham
 //2370123132
@@ -86,7 +86,7 @@ Left Shift (<<):- Shifts bits to the left, filling with 0s.
 Right Shift (>>):- Shifts bits to the right, filling with 0s (logical shift).
 
 ## Output -
-### 1.
+### 1. *Bitwise operators*
 ![Screenshot 2024-07-31 090900](https://github.com/user-attachments/assets/f866dde8-b477-4bc9-8fa4-ed26fab0bd7d)
 
 ## Conclusion -
